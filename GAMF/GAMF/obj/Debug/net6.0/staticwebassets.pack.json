@@ -1,0 +1,993 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GAMF.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GAMF.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\CHANGELOG.md"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\Gruntfile.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\Gruntfile.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\README.md",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\dist\\js\\npm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\npm.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\grunt\\.jshintrc",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\grunt\\.jshintrc"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\grunt\\bs-commonjs-generator.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\grunt\\bs-commonjs-generator.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\grunt\\bs-glyphicons-data-generator.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\grunt\\bs-glyphicons-data-generator.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\grunt\\bs-lessdoc-parser.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\grunt\\bs-lessdoc-parser.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\grunt\\bs-raw-files-generator.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\grunt\\bs-raw-files-generator.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\grunt\\change-version.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\grunt\\change-version.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\grunt\\configBridge.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\grunt\\configBridge.json"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\grunt\\npm-shrinkwrap.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\grunt\\npm-shrinkwrap.json"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\grunt\\sauce_browsers.yml",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\grunt\\sauce_browsers.yml"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\js\\affix.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\affix.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\js\\alert.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\alert.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\js\\button.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\button.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\js\\carousel.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\js\\collapse.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\js\\dropdown.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\dropdown.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\js\\modal.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\modal.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\js\\popover.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\popover.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\js\\scrollspy.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\scrollspy.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\js\\tab.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\tab.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\js\\tooltip.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\js\\transition.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\transition.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\alerts.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\alerts.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\badges.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\badges.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\bootstrap.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\bootstrap.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\breadcrumbs.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\breadcrumbs.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\button-groups.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\button-groups.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\buttons.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\buttons.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\carousel.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\carousel.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\close.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\close.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\code.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\code.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\component-animations.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\component-animations.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\dropdowns.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\dropdowns.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\forms.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\forms.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\glyphicons.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\glyphicons.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\grid.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\grid.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\input-groups.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\input-groups.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\jumbotron.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\jumbotron.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\labels.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\labels.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\list-group.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\list-group.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\media.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\media.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\alerts.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\alerts.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\background-variant.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\background-variant.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\border-radius.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\border-radius.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\buttons.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\buttons.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\center-block.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\center-block.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\clearfix.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\clearfix.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\forms.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\forms.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\gradients.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\gradients.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\grid-framework.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\grid-framework.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\grid.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\grid.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\hide-text.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\hide-text.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\image.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\image.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\labels.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\labels.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\list-group.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\list-group.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\nav-divider.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\nav-divider.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\nav-vertical-align.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\nav-vertical-align.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\opacity.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\opacity.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\pagination.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\pagination.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\panels.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\panels.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\progress-bar.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\progress-bar.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\reset-filter.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\reset-filter.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\reset-text.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\reset-text.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\resize.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\resize.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\responsive-visibility.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\responsive-visibility.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\size.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\size.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\tab-focus.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\tab-focus.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\table-row.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\table-row.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\text-emphasis.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\text-emphasis.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\text-overflow.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\text-overflow.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\mixins\\vendor-prefixes.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\mixins\\vendor-prefixes.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\modals.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\modals.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\navbar.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\navbar.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\navs.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\navs.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\normalize.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\normalize.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\pager.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\pager.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\pagination.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\pagination.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\panels.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\panels.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\popovers.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\popovers.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\print.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\print.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\progress-bars.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\progress-bars.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\responsive-embed.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\responsive-embed.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\responsive-utilities.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\responsive-utilities.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\scaffolding.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\scaffolding.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\tables.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\tables.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\theme.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\theme.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\thumbnails.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\thumbnails.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\tooltip.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\tooltip.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\type.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\type.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\utilities.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\utilities.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\variables.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\less\\wells.less",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\less\\wells.less"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\bootstrap\\package.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\README.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\changelog.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\changelog.md"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_ar.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_ar.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_az.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_az.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_bg.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_bg.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_bn_BD.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_bn_BD.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_ca.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_ca.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_cs.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_cs.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_da.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_da.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_de.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_de.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_el.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_el.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_es.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_es.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_es_AR.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_es_AR.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_es_PE.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_es_PE.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_et.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_et.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_eu.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_eu.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_fa.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_fa.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_fi.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_fi.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_fr.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_fr.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_ge.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_ge.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_gl.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_gl.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_he.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_he.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_hr.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_hr.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_hu.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_hu.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_hy_AM.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_hy_AM.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_id.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_id.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_is.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_is.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_it.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_it.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_ja.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_ja.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_ka.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_ka.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_kk.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_kk.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_ko.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_ko.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_lt.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_lt.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_lv.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_lv.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_mk.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_mk.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_my.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_my.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_nl.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_nl.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_no.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_no.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_pl.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_pl.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_pt_BR.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_pt_BR.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_pt_PT.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_pt_PT.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_ro.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_ro.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_ru.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_ru.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_sd.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_sd.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_si.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_si.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_sk.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_sk.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_sl.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_sl.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_sr.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_sr.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_sr_lat.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_sr_lat.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_sv.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_sv.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_th.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_th.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_tj.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_tj.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_tr.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_tr.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_uk.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_uk.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_ur.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_ur.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_vi.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_vi.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_zh.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_zh.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\messages_zh_TW.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\messages_zh_TW.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\methods_de.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\methods_de.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\methods_es_CL.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\methods_es_CL.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\methods_fi.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\methods_fi.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\methods_nl.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\methods_nl.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\dist\\localization\\methods_pt.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\localization\\methods_pt.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery-validation\\package.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery\\core.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\core.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\wwwroot\\lib\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.GAMF.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.GAMF.props",
+      "PackagePath": "build\\GAMF.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.GAMF.props",
+      "PackagePath": "buildMultiTargeting\\GAMF.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.GAMF.props",
+      "PackagePath": "buildTransitive\\GAMF.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
