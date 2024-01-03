@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\GAMF",
+    "\\GAMF\\bin",
+    "\\GAMF\\bin\\Debug",
+    "\\GAMF\\Controllers",
+    "\\GAMF\\Data",
+    "\\GAMF\\Models",
+    "\\GAMF\\obj",
+    "\\GAMF\\Views",
+    "\\GAMF\\Views\\Courses"
+  ],
+  "SelectedNode": "\\GAMF\\bin\\Debug\\net6.0",
+  "PreviewInSolutionExplorer": false
+}

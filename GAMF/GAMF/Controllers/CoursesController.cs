@@ -8,13 +8,13 @@ using Microsoft.EntityFrameworkCore;
 using GAMF.Data;
 using GAMF.Models;
 
-namespace GAMF.Controllers
+namespace GAMF_N.Controllers
 {
     public class CoursesController : Controller
     {
-        private readonly GAMFContext _context;
+        private readonly GAMFDbContext _context;
 
-        public CoursesController(GAMFContext context)
+        public CoursesController(GAMFDbContext context)
         {
             _context = context;
         }
@@ -22,20 +22,18 @@ namespace GAMF.Controllers
         // GET: Courses
         public async Task<IActionResult> Index()
         {
-              return _context.Course != null ? 
-                          View(await _context.Course.ToListAsync()) :
-                          Problem("Entity set 'GAMFContext.Course'  is null.");
+            return View(await _context.Courses.ToListAsync());
         }
 
         // GET: Courses/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Course == null)
+            if (id == null || _context.Courses == null)
             {
                 return NotFound();
             }
 
-            var course = await _context.Course
+            var course = await _context.Courses
                 .FirstOrDefaultAsync(m => m.CourseId == id);
             if (course == null)
             {
@@ -58,7 +56,7 @@ namespace GAMF.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("CourseId,Title,Credits")] Course course)
         {
-            if (ModelState.IsValid)
+            if (true)
             {
                 _context.Add(course);
                 await _context.SaveChangesAsync();
@@ -70,12 +68,12 @@ namespace GAMF.Controllers
         // GET: Courses/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Course == null)
+            if (id == null || _context.Courses == null)
             {
                 return NotFound();
             }
 
-            var course = await _context.Course.FindAsync(id);
+            var course = await _context.Courses.FindAsync(id);
             if (course == null)
             {
                 return NotFound();
@@ -95,7 +93,7 @@ namespace GAMF.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            if (true)
             {
                 try
                 {
@@ -121,12 +119,12 @@ namespace GAMF.Controllers
         // GET: Courses/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Course == null)
+            if (id == null || _context.Courses == null)
             {
                 return NotFound();
             }
 
-            var course = await _context.Course
+            var course = await _context.Courses
                 .FirstOrDefaultAsync(m => m.CourseId == id);
             if (course == null)
             {
@@ -141,23 +139,23 @@ namespace GAMF.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Course == null)
+            if (_context.Courses == null)
             {
-                return Problem("Entity set 'GAMFContext.Course'  is null.");
+                return Problem("Entity set 'GAMFDbContext.Courses'  is null.");
             }
-            var course = await _context.Course.FindAsync(id);
+            var course = await _context.Courses.FindAsync(id);
             if (course != null)
             {
-                _context.Course.Remove(course);
+                _context.Courses.Remove(course);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool CourseExists(int id)
         {
-          return (_context.Course?.Any(e => e.CourseId == id)).GetValueOrDefault();
+            return _context.Courses.Any(e => e.CourseId == id);
         }
     }
 }

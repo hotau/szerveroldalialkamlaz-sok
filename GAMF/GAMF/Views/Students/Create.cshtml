@@ -1,13 +1,12 @@
 ﻿@model GAMF.Models.Student
 
 @{
-    ViewData["Title"] = "Create";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Tanuló hozzáadása";
 }
 
-<h1>Create</h1>
+<h1>Tanuló hozzáadása</h1>
 
-<h4>Student</h4>
+<h4>Tanuló</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -25,17 +24,32 @@
             </div>
             <div class="form-group">
                 <label asp-for="EnrollmentDate" class="control-label"></label>
-                <input asp-for="EnrollmentDate" class="form-control" />
+                <input asp-for="EnrollmentDate" typeof="text" id="txtEnrollmentDate" class="form-control" />
                 <span asp-validation-for="EnrollmentDate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Letrehoz" class="btn btn-primary" />
+                <input type="submit" value="Hozzáad" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Vissza  alistahoz</a>
+    <a asp-action="Index">Vissza a listához.</a>
 </div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#txtEnrollmentDate").datepicker({
+                dateFormat: 'yy-mm-dd',
+                firstDay: 1
+            });
+        });
+    </script>
+}
 

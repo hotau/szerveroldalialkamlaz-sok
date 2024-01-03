@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\GAMF.csproj": {}
+    "C:\\Users\\Olivér\\Documents\\iskola\\asp_dot_net_szerver_oldali_alkalmazas\\netrolszedettbeadando\\C-szerverek-main\\GAMF\\GAMF\\GAMF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\GAMF.csproj": {
+    "C:\\Users\\Olivér\\Documents\\iskola\\asp_dot_net_szerver_oldali_alkalmazas\\netrolszedettbeadando\\C-szerverek-main\\GAMF\\GAMF\\GAMF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\GAMF.csproj",
+        "projectUniqueName": "C:\\Users\\Olivér\\Documents\\iskola\\asp_dot_net_szerver_oldali_alkalmazas\\netrolszedettbeadando\\C-szerverek-main\\GAMF\\GAMF\\GAMF.csproj",
         "projectName": "GAMF",
-        "projectPath": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\GAMF.csproj",
+        "projectPath": "C:\\Users\\Olivér\\Documents\\iskola\\asp_dot_net_szerver_oldali_alkalmazas\\netrolszedettbeadando\\C-szerverek-main\\GAMF\\GAMF\\GAMF.csproj",
         "packagesPath": "C:\\Users\\Olivér\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Olivér\\source\\repos\\GAMF\\GAMF\\obj\\",
+        "outputPath": "C:\\Users\\Olivér\\Documents\\iskola\\asp_dot_net_szerver_oldali_alkalmazas\\netrolszedettbeadando\\C-szerverek-main\\GAMF\\GAMF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,27 +45,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.23, )"
+              "version": "[7.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[6.0.23, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
+            "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.23, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[6.0.16, )"
+              "version": "[7.0.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[6.0.22, )"
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

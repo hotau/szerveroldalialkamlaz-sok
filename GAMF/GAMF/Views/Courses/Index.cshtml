@@ -1,14 +1,13 @@
 ﻿@model IEnumerable<GAMF.Models.Course>
 
 @{
-    ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Tárgyak";
 }
 
-<h1>Index</h1>
+<h1>Tárgyak</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Tárgy hozzáadása</a>
 </p>
 <table class="table">
     <thead>
@@ -23,20 +22,21 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Credits)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.CourseId">Modositas</a> |
-                <a asp-action="Details" asp-route-id="@item.CourseId">Reszletek</a> |
-                <a asp-action="Delete" asp-route-id="@item.CourseId">Torles</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Credits)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.CourseId">Módosítás</a> |
+                    <a asp-action="Details" asp-route-id="@item.CourseId">Részletek</a> |
+                    <a asp-action="Delete" asp-route-id="@item.CourseId">Törlés</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

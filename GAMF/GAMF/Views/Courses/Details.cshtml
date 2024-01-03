@@ -1,31 +1,30 @@
 ﻿@model GAMF.Models.Course
 
 @{
-    ViewData["Title"] = "Details";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Tárgyak";
 }
 
-<h1>Details</h1>
+<h1>Részletek</h1>
 
 <div>
-    <h4>Course</h4>
+    <h4>Tárgy</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Title)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Title)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Credits)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Credits)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.CourseId">Edit</a> |
-    <a asp-action="Index">Vissza a listahoz</a>
+    <a asp-action="Edit" asp-route-id="@Model?.CourseId">Módosít</a> |
+    <a asp-action="Index">Vissza a listához.</a>
 </div>

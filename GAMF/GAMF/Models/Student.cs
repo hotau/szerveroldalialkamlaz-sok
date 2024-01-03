@@ -5,7 +5,6 @@ namespace GAMF.Models
     public class Student
     {
         public int Id { get; set; }
-
         [Display(Name = "Családnév")]
         [Required(ErrorMessage = "Családnév kitöltése kötelező!")]
         public string LastName { get; set; }
@@ -22,4 +21,5 @@ namespace GAMF.Models
         public virtual ICollection<Enrollment> Enrollments { get; set; }
 
     }
+
 }

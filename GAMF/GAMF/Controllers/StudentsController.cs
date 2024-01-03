@@ -8,37 +8,39 @@ using Microsoft.EntityFrameworkCore;
 using GAMF.Data;
 using GAMF.Models;
 
-namespace GAMF.Controllers
+namespace GAMF_N.Controllers
 {
     public class StudentsController : Controller
     {
-        private readonly GAMFContext _context;
+        public int maxid = 0;
+        private readonly GAMFDbContext _context;
+        
 
-        public StudentsController(GAMFContext context)
+        public StudentsController(GAMFDbContext context)
         {
+
             _context = context;
         }
 
         // GET: Students
         public async Task<IActionResult> Index()
         {
-              return _context.Student != null ? 
-                          View(await _context.Student.ToListAsync()) :
-                          Problem("Entity set 'GAMFContext.Student'  is null.");
+            return View(await _context.Students.ToListAsync());
         }
 
         // GET: Students/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Student == null)
+            if (id == null || _context.Students == null)
             {
                 return NotFound();
             }
 
-            var student = await _context.Student
+            var student = await _context.Students
                 .Include(x => x.Enrollments)
                 .ThenInclude(e => e.Course)
                 .FirstOrDefaultAsync(m => m.Id == id);
+            maxid++;
             if (student == null)
             {
                 return NotFound();
@@ -60,8 +62,9 @@ namespace GAMF.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,LastName,FirstMidName,EnrollmentDate")] Student student)
         {
-            if (ModelState.IsValid)
+            if (true)
             {
+                
                 _context.Add(student);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -72,12 +75,12 @@ namespace GAMF.Controllers
         // GET: Students/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Student == null)
+            if (id == null || _context.Students == null)
             {
                 return NotFound();
             }
 
-            var student = await _context.Student.FindAsync(id);
+            var student = await _context.Students.FindAsync(id);
             if (student == null)
             {
                 return NotFound();
@@ -97,7 +100,7 @@ namespace GAMF.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            if (true)
             {
                 try
                 {
@@ -123,12 +126,12 @@ namespace GAMF.Controllers
         // GET: Students/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Student == null)
+            if (id == null || _context.Students == null)
             {
                 return NotFound();
             }
 
-            var student = await _context.Student
+            var student = await _context.Students
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (student == null)
             {
@@ -143,23 +146,23 @@ namespace GAMF.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Student == null)
+            if (_context.Students == null)
             {
-                return Problem("Entity set 'GAMFContext.Student'  is null.");
+                return Problem("Entity set 'GAMFDbContext.Students'  is null.");
             }
-            var student = await _context.Student.FindAsync(id);
+            var student = await _context.Students.FindAsync(id);
             if (student != null)
             {
-                _context.Student.Remove(student);
+                _context.Students.Remove(student);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool StudentExists(int id)
         {
-          return (_context.Student?.Any(e => e.Id == id)).GetValueOrDefault();
+            return _context.Students.Any(e => e.Id == id);
         }
     }
 }
